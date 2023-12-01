@@ -20,8 +20,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: 'Camelia11112003',
-  database: 'database',
+  password: '', //ur password
+  database: '', //ur database's name
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
